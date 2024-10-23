@@ -18,7 +18,7 @@ func init() {
 	// กำหนดค่า Firestore client ที่นี่
 	ctx := context.Background()
 	var err error
-	client, err = firestore.NewClient(ctx, "delivery-db-a893e", option.WithCredentialsFile("delivery-439500-475c12ae4ef7.json"))
+	client, err = firestore.NewClient(ctx, "delivery-db-a893e", option.WithCredentialsFile(""))
 	if err != nil {
 		log.Fatalf("Failed to create client: %v", err)
 	}
